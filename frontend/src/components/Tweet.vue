@@ -1,10 +1,6 @@
 <template>
   <div class="Tweet">
-
-    <ul>
-    {{ tweets.Auteur }} : {{ tweets.tweet }}
-    </ul>
-
+   {{ tweet.auteur }} : {{ tweet.tweet }}
   </div>
 </template>
 
@@ -12,11 +8,9 @@
 export default {
   name: 'tweet',
   props: ['tweet']
-  }
 }
-</script>
 
+</script>
 <style scoped>
 
-}
  </style>
